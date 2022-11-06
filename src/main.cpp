@@ -1,4 +1,5 @@
 #include "reload/HotReload.h"
+
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 #include <QtQuickControls2/QQuickStyle>
@@ -10,9 +11,7 @@ int main(int argc, char *argv[]) {
 
   QGuiApplication app(argc, argv);
 
-  app.setApplicationName(QStringLiteral("Reloader"));
-  app.setOrganizationName(QStringLiteral("Capgemini"));
-  app.setOrganizationDomain(QStringLiteral("Capgemini domain"));
+  app.setApplicationName(QStringLiteral("QuickProject"));
 
   QQmlApplicationEngine engine;
   const QUrl url(QStringLiteral("qrc:/qml/main.qml"));

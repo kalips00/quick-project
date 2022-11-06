@@ -1,7 +1,5 @@
 #pragma once
-/********* PROJECTS INCLUDES ************/
 
-/********* COTS INCLUDES ************/
 
 #include <QtQml/qqml.h>
 #include <QFile>
@@ -10,7 +8,6 @@
 #include <QQmlParserStatus>
 #include <QString>
 #include <QStringList>
-
 
 /**
  * @brief Utilitary class allowing to have a hot reload on the chosen qml file
