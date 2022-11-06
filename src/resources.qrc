@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/main.qml</file>
+        <file>qml/util/Constants.qml</file>
+        <file>qml/util/Icons.qml</file>
+        <file>qml/component/Icon.qml</file>
+        <file>qml/component/MenuButton.qml</file>
+        <file>qml/page/Content.qml</file>
+        <file>qml/page/IconPage.qml</file>
+        <file>qml/page/ColorPage.qml</file>
+        <file>qml/page/ReloadPage.qml</file>
+        <file>qml/menu/Menu.qml</file>
+        <file>qml/menu/MoreMenu.qml</file>
+        <file>qml/menu/InfoPopup.qml</file>
+        <file>qml/component/Toast.qml</file>
+        <file>qml/component/BasicText.qml</file>
+        <file>qml/component/BasicButton.qml</file>
+        <file>qml/menu/EmptySection.qml</file>
+        <file>qml/menu/TopRightButtons.qml</file>
+        <file>icon/MaterialIcons-Regular.ttf</file>
+        <file>icon/empty_light.svg</file>
+        <file>icon/empty_dark.svg</file>
+    </qresource>
+</RCC>
