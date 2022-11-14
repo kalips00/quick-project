@@ -42,6 +42,8 @@ ColumnLayout {
         Layout.preferredWidth: Constants.mm(60)
         Layout.preferredHeight: Constants.size.m
 
+        leftPadding: Constants.spacing.xs
+
         background: Rectangle {
             color: "transparent"
             radius: Constants.size.radius

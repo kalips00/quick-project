@@ -12,6 +12,8 @@ int main(int argc, char *argv[]) {
   QGuiApplication app(argc, argv);
 
   app.setApplicationName(QStringLiteral("QuickProject"));
+  app.setOrganizationName(QStringLiteral("NathanP"));
+  app.setOrganizationDomain(QStringLiteral("Qml"));
 
   QQmlApplicationEngine engine;
   const QUrl url(QStringLiteral("qrc:/qml/main.qml"));

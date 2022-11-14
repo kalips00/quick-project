@@ -9,7 +9,7 @@ Item {
         anchors.centerIn: parent
         width: 250
         height: 250
-        color: Constants.color.success
+        color: Constants.color.grey8
         radius: 90
 
         Icon {
