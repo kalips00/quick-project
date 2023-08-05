@@ -2,7 +2,7 @@ import QtQuick
 import QtQuick.Controls
 import QtQuick.Dialogs
 
-import quickProject 1.0
+import quickProject
 import "../component"
 
 /**

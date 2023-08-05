@@ -1,8 +1,8 @@
-import QtQuick 2.15
-import QtQuick.Window 2.15
-import Qt.labs.settings 1.0
+import QtQuick
+import QtQuick.Window
+import Qt.labs.settings
 
-import quickProject 1.0
+import quickProject
 import "component"
 import "page"
 import "menu"

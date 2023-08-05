@@ -24,12 +24,9 @@ int main(int argc, char *argv[]) {
                    },
                    Qt::QueuedConnection);
 
-  qmlRegisterSingletonType(QUrl("qrc:///qml/util/Constants.qml"),
-                           "quickProject", 1, 0, "Constants");
-  qmlRegisterSingletonType(QUrl("qrc:///qml/util/Icons.qml"),
-                           "quickProject", 1, 0, "Icons");
-  qmlRegisterType<HotReload>("quickProject",
-                                                       1, 0, "HotReload");
+  qmlRegisterSingletonType(QUrl("qrc:///qml/util/Constants.qml"), "quickProject", 1, 0, "Constants");
+  qmlRegisterSingletonType(QUrl("qrc:///qml/util/Icons.qml"), "quickProject", 1, 0, "Icons");
+  qmlRegisterType<HotReload>("quickProject", 1, 0, "HotReload");
 
   qmlRegisterType(QUrl("qrc:/qml/component/Icon.qml"), "quickProject", 1, 0, "Icon");
   qmlRegisterType(QUrl("qrc:/qml/component/BasicButton.qml"), "quickProject", 1, 0, "BasicButton");

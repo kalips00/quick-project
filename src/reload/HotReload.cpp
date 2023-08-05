@@ -153,7 +153,7 @@ void HotReload::updateProjectFolderPath()
 void HotReload::addQmlImports()
 {
     // import for reloader internal components
-    _fileContent += "import quickProject 1.0\n";
+    _fileContent += "import quickProject\n";
     _fileContent += "import \"../component\"\n";
     // this import allows to be able to load also sub components
     _fileContent += "import \"file:///" + _projectFolderPath + "\"\n";

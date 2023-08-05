@@ -1,7 +1,7 @@
-import QtQuick 2.15
-import QtQuick.Controls 2.15
+import QtQuick
+import QtQuick.Controls
 
-import quickProject 1.0
+import quickProject
 
 /**
  * @brief Basic text with all necessary default properties setted

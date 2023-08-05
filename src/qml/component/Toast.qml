@@ -1,6 +1,6 @@
-import QtQuick 2.15
+import QtQuick
 
-import quickProject 1.0
+import quickProject
 
 /**
  * @brief Basic temporary message panel, display at the bottom of the screen

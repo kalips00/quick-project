@@ -8,7 +8,7 @@ Item {
         anchors.centerIn: parent
         width: 250
         height: 250
-        color: "blue"
+        color: "yellow"
 
         Rectangle {
             width: 100
