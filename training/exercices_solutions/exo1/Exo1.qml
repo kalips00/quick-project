@@ -1,4 +1,7 @@
-import QtQuick 2.15
+import QtQuick
+
+
+import quickProject
 
 Item {
     id: root
@@ -29,6 +32,12 @@ Item {
             text: "My super text!"
             font.pixelSize: 25
             color: "pink"
+        }
+
+        Icon  {
+            anchors.centerIn: parent
+            source: Icons.attachment
+            size: Constants.font.sizeH1
         }
     }
 }
